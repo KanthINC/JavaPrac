@@ -19,6 +19,15 @@ public class TestSingelton {
 		
 		Map<String,String> mm=new HashMap<String, String>();
 
+		
+		//check doubelton
+		
+		MyDoubleton1 obj1=MyDoubleton1.getMyDoubleton1Obj();
+		MyDoubleton1 obj2=MyDoubleton1.getMyDoubleton1Obj();
+		MyDoubleton1 obj3=MyDoubleton1.getMyDoubleton1Obj();
+		System.out.println(obj1);
+		System.out.println(obj2);
+		System.out.println(obj3);
 	}
 
 }
