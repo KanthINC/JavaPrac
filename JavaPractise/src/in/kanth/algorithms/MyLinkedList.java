@@ -13,8 +13,28 @@ public class MyLinkedList {
 			head = node;
 		} else {
 
-			
+			Node travnode = head;
+			while (travnode.next != null) {
+
+				travnode = travnode.next;
+
+			}
+			travnode.next = node;
+
 		}
+	}
+
+	public void showList() {
+
+		Node travnode = head;
+		while (travnode.next != null) {
+
+			System.out.println(travnode.data);
+			travnode = travnode.next;
+
+		}
+		System.out.println(travnode.data);
+
 	}
 
 }
