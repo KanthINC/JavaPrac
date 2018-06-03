@@ -1,5 +1,9 @@
 package in.kanth.Strings;
-
+/**
+ * 
+ * @author ramak
+ *
+ */
 public class StringTest1 {
 	
 
