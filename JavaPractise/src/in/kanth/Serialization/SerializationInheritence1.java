@@ -40,6 +40,10 @@ public class SerializationInheritence1 {
 }
 
 class E implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2392175354356166759L;
 	int i = 30;
 	public E() {
 		super();
@@ -56,12 +60,16 @@ class E implements Serializable {
 }
 
 class D extends E {
-	int i = 40;
-	int j = 50;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6650130061304809470L;
+	int k = 40;
+	int p = 50;
 
 	@Override
 	public String toString() {
-		return "D [i=" + i + ", j=" + j + "]";
+		return "D [k=" + k + ", p=" + p + "]";
 	}
 
 	public D() {

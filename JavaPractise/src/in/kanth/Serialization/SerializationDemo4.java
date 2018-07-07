@@ -66,6 +66,9 @@ public class SerializationDemo4 {
 			}
 		}
 
+		if(ovis!=null){
+			ovis.close();
+		}
 	}
 
 }

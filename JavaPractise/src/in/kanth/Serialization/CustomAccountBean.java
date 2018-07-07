@@ -7,6 +7,10 @@ import java.io.Serializable;
 
 public class CustomAccountBean implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6449871473803556374L;
 	public String question = "What is ur school name?";
 	transient public String answer = "BHPV";
 	transient public int pin = 1234;

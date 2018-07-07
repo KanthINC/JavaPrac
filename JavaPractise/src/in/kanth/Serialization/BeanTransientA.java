@@ -4,6 +4,10 @@ import java.io.Serializable;
 
 public class BeanTransientA implements Serializable{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1573996457122514896L;
 	public BeanTransientA() {
 		super();
 		System.out.println("BeanTransientA new Instance" );

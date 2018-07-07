@@ -1,8 +1,5 @@
 package in.kanth.DesginPatterns;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class TestSingelton {
 
 	public static void main(String[] args) {
@@ -17,7 +14,7 @@ public class TestSingelton {
 		MySingelton2 m22=MySingelton2.getMyobj();
 		System.out.println(m22);
 		
-		Map<String,String> mm=new HashMap<String, String>();
+
 
 		
 		//check doubelton

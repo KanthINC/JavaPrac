@@ -4,6 +4,10 @@ import java.io.Serializable;
 
 public class BeanTrasStaticFinal implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -5563706071539363149L;
 	int i = 20;
 	transient static int j = 30; // static variables doesn't participate in Serialization as it belongs to class
 									// (not objects) , so there is no use in providing transient keyword.

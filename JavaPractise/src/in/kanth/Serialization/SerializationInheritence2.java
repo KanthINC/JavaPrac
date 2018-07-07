@@ -62,6 +62,11 @@ class AA {
 }
 
 class BB extends AA implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7650391032115116406L;
+
 	public BB() {
 		super();
 		System.out.println("BB new instance");

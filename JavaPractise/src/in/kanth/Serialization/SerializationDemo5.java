@@ -44,13 +44,25 @@ public class SerializationDemo5 {
 }
 
 class C implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -1460795256629704264L;
 	int j = 30;
 }
 
 class B implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4692750777304604932L;
 	C c1 = new C();
 }
 
 class A implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -798904279837796223L;
 	B b1 = new B();
 }
