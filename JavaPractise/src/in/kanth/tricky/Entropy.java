@@ -19,10 +19,8 @@ public class Entropy {
 	        new Random().nextInt(cache.length));
 	    }
 	 
-	    // Prove randomness
-	    for (int i = 0; i < 10; i++) {
-	      System.out.println((Integer) i);
-	    }
+	    IntegerPrint io=new IntegerPrint();
+	    io.printNumber();
 	}
 
 }

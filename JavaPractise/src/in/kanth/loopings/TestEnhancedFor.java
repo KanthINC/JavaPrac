@@ -11,6 +11,7 @@ public class TestEnhancedFor {
 		try{
 		testloop.add(null);
 		testloop.add(null);
+		System.out.println(testloop.size());
 		for(String as:testloop){
 			System.out.println(as.length());
 		}

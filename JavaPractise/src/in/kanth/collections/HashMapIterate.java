@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 public class HashMapIterate {
 
@@ -12,15 +11,7 @@ public class HashMapIterate {
 
 		Map<String, Integer> map1 = getMapValues();
 		Map<String, Integer> map=new HashMap<>();
-		// iterate1
-		map1.forEach((k, v) -> {
-			System.out.println(k + "====" + v);
-			if (v > 40) {
-				v.;
-				
-			}
-			map.put(k, v);
-		});
+
 		
 		//map1=map1.entrySet().stream().collect(Collectors.toMap(e->e.getKey(),e->e.getValue()));
 		

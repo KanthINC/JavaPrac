@@ -27,6 +27,8 @@ public class StringTest1 {
        }else{
     	   System.out.println(false);
        }
+       
+       String test=new String("hello");
 	}
 
 }

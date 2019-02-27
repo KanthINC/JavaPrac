@@ -13,5 +13,6 @@ public class MySingelton2 {
 		}
 		return myobj;
 	}
+	
 
 }
