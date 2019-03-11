@@ -2,8 +2,7 @@ package in.kanth.impprograms;
 
 /**
  * 
- * @author ramakanth.b 
- * Des: find whether the string rotated is from actual
+ * @author ramakanth.b Des: find whether the string rotated is from actual
  *         string
  */
 public class CyclicStringCheck {
@@ -20,10 +19,8 @@ public class CyclicStringCheck {
 
 	private static boolean check(String actual, String rotated) {
 		String mytempString = rotated + rotated;
-		if (mytempString.contains(actual)) {
-			return true;
-		}
-		return false;
+		return mytempString.contains(actual) ? true : false;
+
 	}
 
 }

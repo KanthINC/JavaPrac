@@ -10,7 +10,7 @@ public class Concat1 {
 		// chair=chair+table;
 	System.out.println(table);
 	
-	StringBuilder s1=new StrinBuilder("hi");
+	StringBuilder s1=new StringBuilder("hi");
 	s1.append("hello").append("kanth");
 	}
 

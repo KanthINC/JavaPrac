@@ -12,6 +12,7 @@ public class StringTest1 {
 		String s1="tomcat10";
 		String s3="10";
         String s2="tomcat"+s3;
+        String s4="tomcat"+"10";
      
        if(s1==s2){
     	   System.out.println(true);
@@ -19,16 +20,12 @@ public class StringTest1 {
     	   System.out.println(false);
        }
        
-       
-       
-       String s4="tomcat"+"10";
        if(s1==s4){
     	   System.out.println(true);
        }else{
     	   System.out.println(false);
        }
        
-       String test=new String("hello");
 	}
 
 }
